@@ -1,0 +1,145 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #E4E8EB;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.main {
+    padding-top: 10px;
+}
+
+.order-details {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.table-dark th,
+.table-dark td {
+    color: #fff;
+}
+
+/* Carousel styles */
+
+
+.carousel .carousel-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel .carousel-item {
+    transition: transform 0.5s ease-in-out;
+    align-items: center;
+    margin-left: 15%;
+}
+
+/* Form styles */
+.form-control {
+    background: #444;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+
+.btn-primary {
+    background: #F54803;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #d43d00;
+}
+
+/* Restaurant info styles */
+.restaurant-info .restaurant-card {
+    border-radius: 8px;
+    background: #222;
+    text-align: center;
+}
+
+.restaurant-card img {
+    max-width: 80%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1);
+}
+
+#pay-button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
+
+/* Additional product card styles */
+.additional-product {
+    width: 350px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0 auto;
+}
+
+.additional-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.additional-product img {
+    width: 75%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.additional-product .card-body {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.additional-product .card-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.additional-product .card-text {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 12px;
+}
+
+.additional-product .btn {
+    background: #F54803;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.additional-product .btn:hover {
+    background: #d43d00;
+}
